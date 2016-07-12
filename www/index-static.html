@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="appy">
+  <head>
+
+    <title>Appy</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+	<link rel="stylesheet" href="/cdn/lib/jquery/css/jquery-ui-1.10.3.css">
+
+ 	<link rel="stylesheet" href="/cdn/lib/angular/ui/angular-ui.css">
+ 	<link rel="stylesheet" href="/cdn/lib/angular/ui/angular-carousel.css">
+ 	<link rel="stylesheet" href="/cdn/lib/angular/ui/ng-grid/ng-grid.css">
+
+ 	<!-- 
+    <link rel="stylesheet" href="/cdn/lib/bootstrap/v2.2.2/css/bootstrap.css">
+    <link rel="stylesheet" href="/cdn/lib/bootstrap/v2.2.2/css/bootstrap-responsive.css">
+     -->
+     
+    <link rel="stylesheet" href="/cdn/lib/bootstrap/v3.3.4/css/bootstrap.css">
+    <link rel="stylesheet" href="/cdn/lib/bootstrap/v3.3.4/css/bootstrap-theme.css">
+    
+    <!-- <link rel="stylesheet" href="/cdn/lib/bootstrap/themes/b_paper.css"> -->
+    
+	<link rel="stylesheet" href="/cdn/lib/bootstrap/themes/material/css/roboto.css">
+	<link rel="stylesheet" href="/cdn/lib/bootstrap/themes/material/css/material.css">
+	<link rel="stylesheet" href="/cdn/lib/bootstrap/themes/material/css/ripples.css">
+    
+    <link rel="stylesheet" href="/cdn/lib/font-awesome/3.2.1/css/font-awesome.css" >
+ 	
+ 	<link rel="stylesheet" href="/appy/css/bootstrap-override.css">
+  	<link rel="stylesheet" href="/appy/css/index.css">
+  
+  </head>
+
+  <body>
+	
+	<div id="wrapper">
+		<div id="navbar-wrapper" ng-include src='"/appy/partials/navbar.html"'></div>
+		<div id="content-wrapper" ng-include src='"/appy/partials/content.html"'></div>
+	</div>
+	
+	<div ng-view></div>
+	
+	<script src="/cdn/lib/jquery/js/jquery-1.9.1.js"></script>
+	<script src="/cdn/lib/jquery/js/jquery-ui-1.9.2.js"></script>
+	<script src="/cdn/lib/jquery/plugins/forms/validation/jquery.validate.js"></script>
+	
+	<!-- <script src="cdn/lib/bootstrap/v2.2.2/js/bootstrap.js"></script> -->
+	<script src="/cdn/lib/bootstrap/v3.3.4/js/bootstrap.js"></script>
+	
+	<script src="/cdn/lib/bootstrap/themes/material/js/ripples.js"></script>
+	<script src="/cdn/lib/bootstrap/themes/material/js/material.js"></script>
+ 	
+	<script src="/cdn/lib/angular/v1.2.9/angular.js"></script>
+	<script src="/cdn/lib/angular/v1.2.9/angular-route.js"></script>
+	<script src="/cdn/lib/angular/v1.2.9/angular-resource.js"></script>
+	<script src="/cdn/lib/angular/v1.2.9/angular-sanitize.js"></script>
+	<script src="/cdn/lib/angular/v1.2.9/angular-touch.js"></script>
+	
+	<script src="/cdn/lib/angular/ui/angular-ui.js"></script>
+	<script src="/cdn/lib/angular/ui/angular-carousel.js"></script>
+	<script src="/cdn/lib/angular/ui/bootstrap/ui-bootstrap-tpls-0.5.0.js"></script>
+	
+	<script src="/appy/js/data.js"></script>
+	<script src="/appy/js/appy.js"></script>
+
+</body>
+</html>
