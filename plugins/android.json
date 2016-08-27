@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-open": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        }
+    }
+}
