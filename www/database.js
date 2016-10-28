@@ -87,4 +87,3 @@ function saveRow(tableName, row, callback) {
 	var sql = "INSERT INTO " + tableName + " ( " + columns + " ) VALUES ( " + valueInfos + " ) ";
 	execDML(sql, values, callback);
 }
-
