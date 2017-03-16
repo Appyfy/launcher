@@ -36,13 +36,37 @@
         },
         "cordova-open": {
             "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "mobi.moica.whatsapp": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-calendar": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "com.megster.cordova.FileChooser": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "rnd.appy.launcher"
         },
-        "cordova-plugin-file-transfer": {
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "rnd.appy.launcher"
+        },
+        "cordova-plugin-app-event": {
             "PACKAGE_NAME": "rnd.appy.launcher"
         }
     }
