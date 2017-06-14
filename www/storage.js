@@ -1,0 +1,6 @@
+
+function WebStorage() {
+	
+	return this;
+
+}

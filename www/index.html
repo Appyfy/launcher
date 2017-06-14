@@ -5,25 +5,27 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
- 		<script src="http://maps.googleapis.com/maps/api/js"></script>
-	
+		<link rel="manifest" href="manifest.json">
 	</head>	
 	
 	<body>
+
+		<i id="loader" class="fa fa-spinner fa-spin" style="font-size:24px; left: 50%; top:50%; position: absolute;" ></i>
 
         <script src="cordova.js"></script>
         <script src="cordova_plugins.js"></script>
         
 		<div ng-controller="DeviceCtrl"></div>
-		<!-- <div ng-controller="NavCtrl"></div> -->
 		<div ng-controller="DataCtrl"></div>
 		
 		<div ng-view></div>
+		<!-- <ng-include src='"/partials/appy.html"'></ng-include> -->
 
 		<script src="inject.js"></script>
 		<script src="index.js"></script>
+		
 		<script src="database.js"></script>
+		<script src="device.js"></script>
 
 	</body>
 </html>

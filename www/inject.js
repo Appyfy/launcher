@@ -16,6 +16,10 @@ function winLib(lib) {
 	return window[lib];
 }
 
+function navLib(lib) {
+	return navigator[lib];
+}
+
 function defer(container, lib, callback) {
     if (container(lib)) {
     	callback();

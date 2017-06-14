@@ -5,26 +5,24 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	</head>
+	</head>	
 	
 	<body>
-		
-		<div ng-controller="NavCtrl"></div>
+
+        <script src="cordova.js"></script>
+        <script src="cordova_plugins.js"></script>
+        
+		<div ng-controller="DeviceCtrl"></div>
+		<!-- <div ng-controller="NavCtrl"></div> -->
 		<div ng-controller="DataCtrl"></div>
 		
 		<div ng-view></div>
 
+		<script src="inject.js"></script>
 		<script src="index.js"></script>
-<!-- 
-		<script src="/cdn/core/index.js"></script>
-		<script src="/ui/index.js"></script>
- -->
-		<script src="https://my-cdn-lite.appspot.com/core/index.js"></script>
-		<script src="https://my-appy-ui.appspot.com/index.js"></script>
-	
-<!-- 
-        <script src="cordova.js"></script>
-        <script src="cordova_plugins.js"></script>
- -->	 
+		
+		<script src="database.js"></script>
+		<script src="device.js"></script>
+
 	</body>
 </html>
