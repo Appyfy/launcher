@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="fretron">
+    <wb-module deploy-name="launcher">
         <wb-resource deploy-path="/" source-path="/www" tag="defaultRootSource"/>
         <property name="java-output-path" value="/fretron/build/classes"/>
         <property name="context-root" value="launcher"/>
